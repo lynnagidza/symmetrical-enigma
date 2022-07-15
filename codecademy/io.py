@@ -3,9 +3,9 @@ def greet_someone():
     hometown = input('And where are you from?')
     # displays str.format and formatted string literals
     print('Very nice to meet you, {}!'.format(name), f'from {hometown}!')
-    # formatted string literals
-    print(f'Pleasure to meet you {name}, ' 'from {hometown.upper()}')
-    # str.format 
+    # formatted string literals only
+    print(f'Pleasure to meet you {name}, ', f'from {hometown.upper()}')
+    # str.format only
     print('Gang! Gang! {} from {}'.format(name, hometown))
 
 
