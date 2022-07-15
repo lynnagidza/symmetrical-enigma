@@ -7,6 +7,8 @@ def greet_someone():
     print(f'Pleasure to meet you {name}, ', f'from {hometown.upper()}')
     # str.format only
     print('Gang! Gang! {} from {}'.format(name, hometown))
+    # oldskool
+    print('Hello ' + name + ' from ' + hometown)
 
 
 greet_someone()
