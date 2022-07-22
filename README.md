@@ -1,2 +1,2 @@
 # symmetrical-enigma
-ML Bootcamp Prep
+Python refresher exercises
